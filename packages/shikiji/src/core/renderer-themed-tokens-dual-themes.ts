@@ -29,7 +29,7 @@ export function renderToThemedTokensDualThemes(
 
   return {
     tokens: merged,
-    rootClass: `shiki ${themes.map(t => t[2].name).join(' ')}`,
+    rootClass: `shiki shiki-dual-themes ${themes.map(t => t[2].name).join(' ')}`,
     rootStyle: `${fg};${bg}`,
   }
 }
